@@ -1,0 +1,37 @@
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4a261;
+}
+
+
+nav{
+    height: 10vh;
+    text-align: center;
+}
+
+.left, .right{
+    height: 80vh;
+    width: 25vw;
+    text-align: center;
+    display: flex;
+    padding: 1;
+    border: 2px solid black;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+main{
+    display: flex;
+}
+.center{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+footer{
+    height: 15vh;
+    width: 100vw;
+    background-color: #e76f51 ;
+}
